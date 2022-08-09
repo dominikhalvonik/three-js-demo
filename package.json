@@ -1,0 +1,46 @@
+{
+    "name": "ski-jumping",
+    "version": "4.2.4",
+    "private": true,
+    "scripts": {
+        "serve": "npx --max_old_space_size=4096 vue-cli-service serve",
+        "dev": "vite --mode premise",
+        "dev:dev": "vite --mode development",
+        "build": "run-p type-check build-only",
+        "build-debug": "vite build --mode premise",
+        "build-qa": "vite build --mode qa",
+        "build-uat": "vite build --mode uat",
+        "build-prod": "vite build --mode prod",
+        "build-dev": "vite build --mode development",
+        "preview": "vite preview --port 4173",
+        "build-only": "vite build",
+        "type-check": "vue-tsc --noEmit",
+        "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path ../.gitignore"
+    },
+    "dependencies": {
+        "@powerplay/core-minigames": "2.3.1",
+        "@powerplay/core-minigames-ui": "1.2.24",
+        "buffer": "^6.0.3",
+        "vite-plugin-compression": "^0.5.1",
+        "vue": "^3.2.37",
+        "vue-class-component": "^8.0.0-0",
+        "vue-i18n": "^9.1.7",
+        "vuex": "^4.0.0"
+    },
+    "devDependencies": {
+        "@esbuild-plugins/node-globals-polyfill": "^0.1.1",
+        "@rushstack/eslint-patch": "^1.1.0",
+        "@types/node": "^16.11.41",
+        "@vitejs/plugin-vue": "^2.3.3",
+        "@vue/eslint-config-typescript": "^11.0.0",
+        "@vue/tsconfig": "^0.1.3",
+        "eslint": "^8.5.0",
+        "eslint-plugin-vue": "^9.0.0",
+        "less": "^4.1.3",
+        "npm-run-all": "^4.1.5",
+        "typescript": "~4.7.4",
+        "vite": "^2.9.12",
+        "vite-plugin-environment": "^1.1.1",
+        "vue-tsc": "^0.38.1"
+    }
+}

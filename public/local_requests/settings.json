@@ -1,0 +1,20 @@
+{
+    "error": "",
+    "data": {
+        "quality": {
+            "value": 8
+        },
+        "qualityAuto": {
+            "value": 1
+        },
+        "sounds": {
+            "value": 1
+        },
+        "isLeft": {
+            "value": 1
+        },
+        "controlsType": {
+            "value": 1
+        }
+    }
+}

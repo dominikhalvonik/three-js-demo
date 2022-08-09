@@ -1,0 +1,26 @@
+{
+    "data": [
+        {
+            "name": "quality",
+            "value": "5"
+        },
+        {
+            "name": "qualityAuto",
+            "value": "1"
+        },
+        {
+            "name": "sounds",
+            "value": "0"
+        },
+        {
+            "name": "isLeft",
+            "value": "0"
+        },
+        {
+            "name": "controlsType",
+            "value": "0"
+        }
+    ],
+    "error": "",
+    "tasks": []
+}

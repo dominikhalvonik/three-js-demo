@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta id="Viewport" name="viewport" content="initial-scale=1.0,user-scalable=no">
+    <title>Ski Jumping</title>
+</head>
+<body>
+    <div id="live-layout" data-version="">
+        <div class="live-layout-wrapper" id="live-layout-wrapper">
+            <div id="game-container" style="position: relative;"></div>
+            <div id="game-background-filter"></div>
+            <div id="game-wrapper">
+                <div id="game-meta"></div>
+                <div id="modal-bg"></div>
+            </div>
+        </div>
+    </div>
+    <div id="orientation" style="opacity: 0;"></div>
+    <script id="vertexShaderInstancing" type="x-shader/x-vertex">
+            
+        precision highp float;
+        uniform mat4 modelViewMatrix;
+        uniform mat4 projectionMatrix;
+        attribute vec3 position;
+        attribute vec3 offset;
+        attribute vec2 uv;
+        attribute vec4 orientation;
+        attribute vec3 scale;
+        varying vec2 vUv;
+        
+        vec3 applyQuaternionToVector( vec4 q, vec3 v ){
+            v *= scale;
+            return v + 2.0 * cross( q.xyz, cross( q.xyz, v ) + q.w * v );
+        }
+        
+        void main() {
+            vec3 vPosition = applyQuaternionToVector( orientation, position );
+            vUv = uv;
+            gl_Position = projectionMatrix * modelViewMatrix * vec4( offset + vPosition, 1.0 );
+        }
+        
+    </script>
+
+    <script id="fragmentShaderInstancing" type="x-shader/x-fragment">
+        
+        precision highp float;
+        uniform sampler2D map;
+        varying vec2 vUv;
+        
+        void main() {
+            gl_FragColor = texture2D( map, vUv );
+        }
+        
+    </script>
+    <script>const exports = {};</script>
+    <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

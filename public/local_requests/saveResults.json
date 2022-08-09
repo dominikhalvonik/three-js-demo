@@ -1,0 +1,55 @@
+{
+    "error": "",
+    "data": {
+        "stars": 3,
+        "score": {
+            "base": 341,
+            "total": 444,
+            "bonuses": 113
+        },
+        "bonus": {
+            "benefits": 5,
+            "alchemy": 14,
+            "subscription": 22,
+            "equipment": 10
+        },
+        "subscription": {
+            "tp": 141,
+            "active": 0
+        },
+        "attribute": {
+            "value_from": 10,
+            "value_next": 12,
+            "tp_from": 0,
+            "tp_new": 35,
+            "tp_milestone": 400,
+            "tp_milestone_new": 425
+        },
+        "energy": {
+            "value_new_game": 13,
+            "available": 1
+        },
+        "rewards": [
+            {
+                "type": "training_points",
+                "count": 5,
+                "title": "Test Title"
+            },
+            {
+                "type": "training_points",
+                "count": 2,
+                "title": "Test Title"
+            },
+            {
+                "type": "training_points",
+                "count": 3,
+                "title": "Test Title"
+            },
+            {
+                "type": "training_points",
+                "count": 7777,
+                "title": "Test Title"
+            }
+        ]
+    }
+}

@@ -1,0 +1,187 @@
+{
+    "error": "",
+    "data": {
+        "match_id": "dasdadsads",
+        "players": [
+            {
+                "uuid": "dasdasdasdsa",
+                "name": "Janko Hrasko",
+                "country": "svk",
+                "sex": "male",
+                "race": "white",
+                "avatar": 2,
+                "avatarBg": 1,
+                "experiences": 100,
+                "attribute": {
+                    "base": 10,
+                    "total": 101
+                },
+                "personalBest": 104.2,
+                "rankingPoints": 100
+            },
+            {
+                "uuid": "dasdasdasdsa2",
+                "name": "Alex Rychly",
+                "country": "hrv",
+                "experiences": 10,
+                "attribute": {
+                    "base": 15,
+                    "total": 15
+                },
+                "personalBest": 45.2,
+                "rankingPoints": 100,
+                "resultsArr": [
+                    {
+                        "main": 105,
+                        "second": 120
+                    },
+                    {
+                        "main": 103.5,
+                        "second": 125
+                    }
+                ]
+            },
+            {
+                "uuid": "dasdasdasdsa3",
+                "name": "Alex Rychly 2",
+                "country": "hrv",
+                "experiences": 10,
+                "attribute": {
+                    "base": 15,
+                    "total": 15
+                },
+                "personalBest": 45.2,
+                "rankingPoints": 100,
+                "resultsArr": [
+                    {
+                        "main": 101.3,
+                        "second": 110.5
+                    },
+                    {
+                        "main": 100.2,
+                        "second": 109
+                    }
+                ]
+            },
+            {
+                "uuid": "dasdasdasdsa4",
+                "name": "Alex Rychly 3",
+                "country": "hrv",
+                "experiences": 10,
+                "attribute": {
+                    "base": 15,
+                    "total": 15
+                },
+                "personalBest": 45.2,
+                "rankingPoints": 100,
+                "resultsArr": [
+                    {
+                        "main": 98.5,
+                        "second": 99.5
+                    },
+                    {
+                        "main": 99.8,
+                        "second": 100
+                    }
+                ]
+            },
+            {
+                "uuid": "dasdasdasdsa5",
+                "name": "Alex Rychly 4",
+                "country": "hrv",
+                "experiences": 10,
+                "attribute": {
+                    "base": 15,
+                    "total": 15
+                },
+                "personalBest": 45.2,
+                "rankingPoints": 100,
+                "resultsArr": [
+                    {
+                        "main": 128.5,
+                        "second": 118.5
+                    },
+                    {
+                        "main": 132,
+                        "second": 120
+                    }
+                ]
+            },
+            {
+                "uuid": "dasdasdasdsa6",
+                "name": "Alex Rychly 5",
+                "country": "hrv",
+                "experiences": 10,
+                "attribute": {
+                    "base": 15,
+                    "total": 15
+                },
+                "personalBest": 45.2,
+                "rankingPoints": 100,
+                "resultsArr": [
+                    {
+                        "main": 103.5,
+                        "second": 110
+                    },
+                    {
+                        "main": 108.1,
+                        "second": 115.5
+                    }
+                ]
+            },
+            {
+                "uuid": "dasdasdasdsa7",
+                "name": "Alex Rychly 6",
+                "country": "hrv",
+                "experiences": 10,
+                "attribute": {
+                    "base": 15,
+                    "total": 15
+                },
+                "personalBest": 45.2,
+                "rankingPoints": 100,
+                "resultsArr": [
+                    {
+                        "main": 102.8,
+                        "second": 111.5
+                    },
+                    {
+                        "main": 101.2,
+                        "second": 110
+                    }
+                ]
+            },
+            {
+                "uuid": "dasdasdasdsa8",
+                "name": "Alex Rychly 7",
+                "country": "hrv",
+                "experiences": 10,
+                "attribute": {
+                    "base": 15,
+                    "total": 15
+                },
+                "personalBest": 45.2,
+                "rankingPoints": 100,
+                "resultsArr": [
+                    {
+                        "main": 109.3,
+                        "second": 111.5
+                    },
+                    {
+                        "main": 111,
+                        "second": 114
+                    }
+                ]
+            }
+        ],
+        "specialData": {
+            "startGate": 1
+        },
+        "trainingData": {
+            "task_level": 2,
+            "best_score": 300,
+            "tp_max": 123
+        },
+        "firstInstructions": 0
+    }
+}
